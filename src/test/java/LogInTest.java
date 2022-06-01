@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 public class LogInTest {
     //private LogIn logIn = null;
-    Login logIn = new LogIn();
+    LogIn logIn = new LogIn();
     
 
     @Test
