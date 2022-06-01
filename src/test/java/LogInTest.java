@@ -7,7 +7,7 @@ public class LogInTest {
 
     @BeforeEach
     public void SetUp(){
-        LogIn logIn = new LogIn();
+        logIn = new LogIn();
     }
 
     @Test
