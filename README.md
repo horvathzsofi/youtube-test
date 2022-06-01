@@ -16,7 +16,7 @@ Perform a web ui testing on couple of functions of youtube.com with SELENIUM.
 ## Tasks
 
 1. Automated test for profile settings
-    - Create user
+    [x] Create user
     - Login to web application
     - Set profile details
     - Logout from webb application
