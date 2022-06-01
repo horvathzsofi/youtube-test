@@ -1,0 +1,1 @@
+[{"uid":"b954a0ad6faab8b5","name":"TestGetEmail()","time":{"start":1654110434856,"stop":1654110434884,"duration":28},"status":"failed","severity":"normal"},{"uid":"7afc49a51d29b855","name":"TestGetPassword()","time":{"start":1654110434946,"stop":1654110434948,"duration":2},"status":"failed","severity":"normal"}]
