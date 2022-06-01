@@ -3,11 +3,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class LogInTest {
-    private LogIn logIn = null;
+    //private LogIn logIn = null;
 
-    @BeforeEach
+    @BeforeAll
     public void SetUp(){
-        logIn = new LogIn();
+        Login logIn = new LogIn();
     }
 
     @Test
