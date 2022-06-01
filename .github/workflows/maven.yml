@@ -10,7 +10,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    env:
+        LOGIN_PART_ONE: ${{ secrets.LOGIN_PART_ONE }}
+        LOGIN_PART_TWO: ${{ secrets.LOGIN_PART_TWO }}
+        
     steps:
     - uses: actions/checkout@v2
     - uses: actions/cache@v1
