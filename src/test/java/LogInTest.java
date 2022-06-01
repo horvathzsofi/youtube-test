@@ -4,11 +4,8 @@ import org.junit.jupiter.api.Test;
 
 public class LogInTest {
     //private LogIn logIn = null;
-
-    @BeforeAll
-    public void SetUp(){
-        Login logIn = new LogIn();
-    }
+    Login logIn = new LogIn();
+    
 
     @Test
     public void TestGetEmail(){
