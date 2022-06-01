@@ -6,13 +6,13 @@ public class LogIn {
 
     public String getEmail() {
         Map<String,String> env = System.getenv();
-        return env.get(LOGIN_PART_ONE);
+        return env.get("LOGIN_PART_ONE");
       //  return email;
     }
 
     public String getPassword() {
         Map<String,String> env = System.getenv();
-        return env.get(LOGIN_PART_TWO);
+        return env.get("LOGIN_PART_TWO");
         //return password;
     }
 }
