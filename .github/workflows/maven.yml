@@ -26,6 +26,9 @@ jobs:
         java-version: '16'
         distribution: 'adopt'
     - name: Install dependencies
+      env:
+        LOGIN_PART_ONE: ${{ secrets.LOGIN_PART_ONE }}
+        LOGIN_PART_TWO: ${{ secrets.LOGIN_PART_TWO }}
       run: mvn dependency:go-offline compile compiler:testCompile
     - name: Build with Maven
       env:
