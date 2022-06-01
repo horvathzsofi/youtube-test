@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>youtube-test</artifactId>
+    <artifactId>PomDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -98,7 +98,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <forkCount>3</forkCount>
                     <reuseForks>true</reuseForks>
-                    <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
+                    <!-- <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine> -->
                     <!--argLine>
                         -Dfile.encoding=UTF-8
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
@@ -151,6 +151,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
