@@ -13,13 +13,14 @@ public class LogInTest {
     
 
     @Test
-    @Disable
+    @Disabled
     public void TestGetEmail(){
         String email = logIn.getEmail();
         Assertions.assertEquals("sajt", email);
     }
+    
     @Test
-    @Disable
+    @Disabled
     public void TestGetPassword(){
         String password = logIn.getPassword();
         Assertions.assertEquals("alma", password);
