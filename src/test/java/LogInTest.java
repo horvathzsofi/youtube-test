@@ -11,14 +11,14 @@ public class LogInTest {
         logIn = new LogIn();
     }
     
-    @Disabled
+    @Disable
     @Test
     public void TestGetEmail(){
         String email = logIn.getEmail();
         Assertions.assertEquals("sajt", email);
     }
     
-    @Disabled
+    @Disable
     @Test
     public void TestGetPassword(){
         String password = logIn.getPassword();
